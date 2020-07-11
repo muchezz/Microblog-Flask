@@ -60,3 +60,5 @@ Traceback (most recent call last):
 KeyError: 'POSTS_PER_PAGE'
 2020-07-11 08:38:22,805 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:43]
 2020-07-11 09:36:59,255 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:43]
+2020-07-11 23:20:00,203 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:45]
+2020-07-11 23:45:16,612 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:45]
