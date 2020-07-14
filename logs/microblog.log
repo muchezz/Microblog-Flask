@@ -62,3 +62,4 @@ KeyError: 'POSTS_PER_PAGE'
 2020-07-11 09:36:59,255 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:43]
 2020-07-11 23:20:00,203 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:45]
 2020-07-11 23:45:16,612 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:45]
+2020-07-14 12:45:19,334 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:45]
