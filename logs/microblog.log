@@ -1,72 +1,4 @@
-2020-07-07 23:34:04,375 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:43]
-2020-07-07 23:34:20,299 ERROR: Exception on / [GET] [in c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\app.py:1891]
-Traceback (most recent call last):
-  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\app.py", line 2447, in wsgi_app
-    response = self.full_dispatch_request()
-  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\_compat.py", line 39, in reraise
-    raise value
-  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask_login\utils.py", line 272, in decorated_view
-    return func(*args, **kwargs)
-  File "Z:\Python\microblog\app\routes.py", line 30, in index
-    page, app.config['POSTS_PER_PAGE'], False)
-KeyError: 'POSTS_PER_PAGE'
-2020-07-11 08:06:06,443 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:43]
-2020-07-11 08:06:22,849 ERROR: Exception on / [GET] [in c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\app.py:1891]
-Traceback (most recent call last):
-  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\app.py", line 2447, in wsgi_app
-    response = self.full_dispatch_request()
-  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\_compat.py", line 39, in reraise
-    raise value
-  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask_login\utils.py", line 272, in decorated_view
-    return func(*args, **kwargs)
-  File "Z:\Python\microblog\app\routes.py", line 30, in index
-    page, app.config['POSTS_PER_PAGE'], False)
-KeyError: 'POSTS_PER_PAGE'
-2020-07-11 08:28:18,919 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:43]
-2020-07-11 08:28:26,684 ERROR: Exception on / [GET] [in c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\app.py:1891]
-Traceback (most recent call last):
-  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\app.py", line 2447, in wsgi_app
-    response = self.full_dispatch_request()
-  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\_compat.py", line 39, in reraise
-    raise value
-  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask_login\utils.py", line 272, in decorated_view
-    return func(*args, **kwargs)
-  File "Z:\Python\microblog\app\routes.py", line 30, in index
-    page, app.config['POSTS_PER_PAGE'], False)
-KeyError: 'POSTS_PER_PAGE'
-2020-07-11 08:38:22,805 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:43]
-2020-07-11 09:36:59,255 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:43]
-2020-07-11 23:20:00,203 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:45]
-2020-07-11 23:45:16,612 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:45]
-2020-07-14 12:45:19,334 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:45]
-2020-07-15 09:59:05,016 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:45]
-2020-07-15 09:59:24,824 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:45]
-2020-07-15 10:50:27,444 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:45]
-2020-07-15 10:50:51,076 ERROR: Exception on /reset_password_request [GET] [in c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\app.py:1891]
+2020-07-15 23:36:21,813 ERROR: Exception on /reset_password_request [GET] [in c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\app.py:1891]
 Traceback (most recent call last):
   File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\app.py", line 2447, in wsgi_app
     response = self.full_dispatch_request()
@@ -82,29 +14,47 @@ Traceback (most recent call last):
     return self.view_functions[rule.endpoint](**req.view_args)
   File "Z:\Python\microblog\app\routes.py", line 105, in reset_password_request
     return render_template('reset_password_request.html',
-  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\templating.py", line 138, in render_template
-    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
-  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\jinja2\environment.py", line 930, in get_or_select_template
-    return self.get_template(template_name_or_list, parent, globals)
-  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\jinja2\environment.py", line 883, in get_template
-    return self._load_template(name, self.make_globals(globals))
-  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\jinja2\environment.py", line 857, in _load_template
-    template = self.loader.load(self, name, globals)
-  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\jinja2\loaders.py", line 127, in load
-    code = environment.compile(source, name, filename)
-  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\jinja2\environment.py", line 638, in compile
-    self.handle_exception(source=source_hint)
+  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
   File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
     reraise(*rewrite_traceback_stack(source=source))
   File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\jinja2\_compat.py", line 28, in reraise
     raise value.with_traceback(tb)
-  File "Z:\Python\microblog\app\templates\reset_password_request.html", line 14, in template
-    <p> {{ form.submit() }}</p>
-jinja2.exceptions.TemplateSyntaxError: Unexpected end of template. Jinja was looking for the following tags: 'endblock'. The innermost block that needs to be closed is 'block'.
-2020-07-15 11:08:51,012 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:45]
-2020-07-15 11:14:07,324 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:45]
-2020-07-15 13:12:48,620 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:45]
-2020-07-15 22:42:23,324 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:47]
-2020-07-15 22:42:34,226 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:47]
-2020-07-15 23:22:35,997 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:47]
-2020-07-15 23:28:23,011 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:47]
+  File "Z:\Python\microblog\app\templates\reset_password_request.html", line 1, in top-level template code
+    {% extends "base.html" %}
+jinja2.exceptions.TemplateRuntimeError: extended multiple times
+2020-07-15 23:37:09,759 ERROR: Exception on /reset_password_request [GET] [in c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "Z:\Python\microblog\app\routes.py", line 105, in reset_password_request
+    return render_template('reset_password_request.html',
+  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "Z:\Python\microblog\app\templates\reset_password_request.html", line 1, in top-level template code
+    {% extends "base.html" %}
+jinja2.exceptions.TemplateRuntimeError: extended multiple times
+2020-07-15 23:37:22,565 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:47]
+2020-07-15 23:44:12,331 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:47]
