@@ -1,4 +1,4 @@
-2020-07-15 23:36:21,813 ERROR: Exception on /reset_password_request [GET] [in c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\app.py:1891]
+2020-07-20 10:33:28,263 ERROR: Exception on / [GET] [in c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\app.py:1891]
 Traceback (most recent call last):
   File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\app.py", line 2447, in wsgi_app
     response = self.full_dispatch_request()
@@ -12,8 +12,10 @@ Traceback (most recent call last):
     rv = self.dispatch_request()
   File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
     return self.view_functions[rule.endpoint](**req.view_args)
-  File "Z:\Python\microblog\app\routes.py", line 105, in reset_password_request
-    return render_template('reset_password_request.html',
+  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask_login\utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "Z:\Python\microblog\app\routes.py", line 43, in index
+    return render_template('index.html', title=_('Home'), form=form,
   File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\templating.py", line 137, in render_template
     return _render(
   File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\templating.py", line 120, in _render
@@ -24,48 +26,27 @@ Traceback (most recent call last):
     reraise(*rewrite_traceback_stack(source=source))
   File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\jinja2\_compat.py", line 28, in reraise
     raise value.with_traceback(tb)
-  File "Z:\Python\microblog\app\templates\reset_password_request.html", line 1, in top-level template code
-    {% extends "base.html" %}
-jinja2.exceptions.TemplateRuntimeError: extended multiple times
-2020-07-15 23:37:09,759 ERROR: Exception on /reset_password_request [GET] [in c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\app.py:1891]
-Traceback (most recent call last):
-  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\app.py", line 2447, in wsgi_app
-    response = self.full_dispatch_request()
-  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\_compat.py", line 39, in reraise
-    raise value
-  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "Z:\Python\microblog\app\routes.py", line 105, in reset_password_request
-    return render_template('reset_password_request.html',
-  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\templating.py", line 137, in render_template
-    return _render(
-  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask\templating.py", line 120, in _render
-    rv = template.render(context)
-  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\jinja2\environment.py", line 1090, in render
-    self.environment.handle_exception()
+  File "Z:\Python\microblog\app\templates\index.html", line 2, in top-level template code
+    {% import 'bootstrap/wtf.html' as wtf %}
+  File "Z:\Python\microblog\app\templates\base.html", line 1, in top-level template code
+    {% extends 'bootstrap/base.html' %}
+  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask_bootstrap\templates\bootstrap\base.html", line 1, in top-level template code
+    {% block doc -%}
+  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask_bootstrap\templates\bootstrap\base.html", line 4, in block "doc"
+    {%- block html %}
+  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask_bootstrap\templates\bootstrap\base.html", line 20, in block "html"
+    {% block body -%}
+  File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\flask_bootstrap\templates\bootstrap\base.html", line 23, in block "body"
+    {% block content -%}
+  File "Z:\Python\microblog\app\templates\base.html", line 48, in block "content"
+    {% block app_content %}{% endblock %}
+  File "Z:\Python\microblog\app\templates\index.html", line 11, in block "app_content"
+    {% include '_post.html' %}
   File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
     reraise(*rewrite_traceback_stack(source=source))
   File "c:\users\james.mucheru\appdata\local\programs\python\python38-32\lib\site-packages\jinja2\_compat.py", line 28, in reraise
     raise value.with_traceback(tb)
-  File "Z:\Python\microblog\app\templates\reset_password_request.html", line 1, in top-level template code
-    {% extends "base.html" %}
-jinja2.exceptions.TemplateRuntimeError: extended multiple times
-2020-07-15 23:37:22,565 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:47]
-2020-07-15 23:44:12,331 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:47]
-2020-07-16 22:33:02,512 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:49]
-2020-07-17 10:44:07,670 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:51]
-2020-07-17 10:46:07,001 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:51]
-2020-07-17 10:49:48,512 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:51]
-2020-07-17 10:54:39,313 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:51]
-2020-07-17 10:55:13,658 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:51]
-2020-07-17 10:57:02,280 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:51]
-2020-07-17 10:57:39,146 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:51]
-2020-07-17 10:57:57,676 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:51]
-2020-07-17 10:58:07,410 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:51]
-2020-07-17 10:58:16,034 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:51]
+  File "Z:\Python\microblog\app\templates\_post.html", line 27, in template
+    {% endid %}
+jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'endid'. Jinja was looking for the following tags: 'elif' or 'else' or 'endif'. The innermost block that needs to be closed is 'if'.
+2020-07-20 10:34:12,211 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:51]
