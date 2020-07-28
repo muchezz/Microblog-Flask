@@ -53,3 +53,4 @@ jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'endid'. Jinja wa
 2020-07-23 23:46:02,227 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:51]
 2020-07-24 10:46:59,400 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:51]
 2020-07-27 12:13:19,044 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:51]
+2020-07-28 22:36:49,551 INFO: Microblog startup [in Z:\Python\microblog\app\__init__.py:74]
