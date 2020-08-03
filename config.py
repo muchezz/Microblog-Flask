@@ -17,6 +17,6 @@ class Config(object):
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
     ADMINS = ['your-email@example.com']
     LANGUAGES = ['en', 'es']
-    MS_TRANSLATOR_KEY = os.environ.get('e3b286393bf247bab44b2ed28cb8beb0')
+    MS_TRANSLATOR_KEY = os.environ.get('MS_TRANSLATOR_KEY')
     POSTS_PER_PAGE = 25
     ELASTICSEARCH_URL = os.environ.get('ELASTICSEARCH_URL')
